@@ -155,7 +155,7 @@ function gengshuang(n, b) {
         for (j = 0; j < length; j++) {
             answer += sentences[index++]
         }
-        answer += "<br><br>"
+        answer += "笑死<br><br>"
     }
     answer = answer.replace(/#N/g, n)
     answer = answer.replace(/#B/g, b)
